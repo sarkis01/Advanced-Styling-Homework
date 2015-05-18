@@ -1,0 +1,232 @@
+/*
+Project Name: Advanced Styling Homework
+Client: n/a
+Author: Sarkis A Kalashian
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+.benefits {
+  background-color: #f0efef;
+  margin: auto;
+  height: 275px;
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat;
+  background-image: cover;
+  height: 450px;
+}
+
+.testimonial {
+  height: 250px;
+}
+
+.signup {
+  background-color: yellow;
+  margin: auto;
+  height: 80px;
+}
+
+footer {
+  background-color: #282828;
+  height: 250px;
+}
+
+.social {
+  padding-left: 445px;
+  padding-top: 45px;
+}
+
+/*#socialimages {
+  display: inline-block;
+  margin-left: 47%;
+  padding: 26px 5px 5px 5px;
+  position: relative;
+}*/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.image {
+  position: relative;
+  width: auto;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  top: 30px;
+  position: absolute;
+  left: 200px;
+}
+
+header h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding-top: 130px;
+
+}
+
+header h3 {
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: yellow;
+  padding: 8px 30px;
+  position: absolute;
+  top: 230px;
+  text-decoration: none;
+  margin-left: 34%;
+}
+
+
+.benefits h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 50px 0 10px 50px;
+  color: #033048;
+}
+
+.benefits h3 {
+  font-weight: 300;
+  font-size: 13px;
+  padding: 0 0 0 55px;
+  color: #606161;
+  width: 40%;
+  line-height: 20px;
+}
+
+.benefits ul {
+  font-weight: 300;  
+  font-size: 13px;
+  padding: 0 0 0 55px;
+  line-height: 20px;
+  color: #606161;
+  padding: 5px 0 5px 90px;
+  width: 40%;
+}
+
+
+.testimonial h2 {
+  background: url(../images/testimonial_bg.jpg) no-repeat;
+  height: 250px;
+  font-weight: 300;  
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  padding: 53px 330px 0 330px;
+  opacity: .9;
+}
+
+.testimonial h3 {
+  font-weight: 600;
+  font-size: 18px;
+  position: relative;
+  top: -88px;
+  color: white;
+  text-align: center;
+}
+
+.signup h2 {
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 10px 45px;
+  position: absolute;
+  left: 524px;
+  top: 999px;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+footer h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: yellow;
+  text-align: center;
+  top: 20px;
+  position: relative;
+}
+
+footer p {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.footer img {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+}
